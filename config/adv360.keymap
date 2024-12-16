@@ -31,7 +31,7 @@
             label = "MACRO_BRACKET";
         };
 
-        macro_brace: new_macro {
+        macro_brace: macro_brace {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LEFT_BRACE &kp RIGHT_BRACE &kp LEFT>;
